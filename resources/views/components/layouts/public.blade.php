@@ -809,7 +809,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                             </svg>
-                            <span>Jl. Masjid Raya, Bangkinang<br>Riau, Indonesia</span>
+                            <span>Jl. Profesor Moh. Yamin SH No.439, Langgini, Kec. Bangkinang, Kabupaten Kampar,<br>Riau, Indonesia</span>
                         </p>
                         <p class="flex items-center">
                             <svg class="w-5 h-5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -843,23 +843,7 @@
                 </div>
                 
                 <!-- Resources -->
-                <div>
-                    <h3 class="font-heading font-semibold text-lg mb-4 text-gold-300">Sumber Daya</h3>
-                    <ul class="space-y-2 text-sm">
-                        <li>
-                            <a href="{{ route('infaq') }}" class="hover:text-gold-300 transition-colors">Infaq & Donasi</a>
-                        </li>
-                        <li>
-                            <a href="#" class="hover:text-gold-300 transition-colors">Jadwal Sholat</a>
-                        </li>
-                        <li>
-                            <a href="#" class="hover:text-gold-300 transition-colors">Program</a>
-                        </li>
-                        <li>
-                            <a href="#" class="hover:text-gold-300 transition-colors">Tentang Kami</a>
-                        </li>
-                    </ul>
-                </div>
+
                 
                 <!-- Social Media -->
                 <div>
@@ -903,7 +887,7 @@
             </div>
             
             <div class="border-t border-white/20 mt-8 pt-8 text-center text-sm">
-                <p>&copy; {{ date('Y') }} {{ config('app.name') }}. All rights reserved.</p>
+                <p>&copy;  Teknik Informatika Politeknik Kampar.</p>
             </div>
         </div>
     </footer>
