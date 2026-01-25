@@ -820,27 +820,7 @@
                     </address>
                 </div>
                 
-                <!-- Quick Links -->
-                <div>
-                    <h3 class="font-heading font-semibold text-lg mb-4 text-gold-300">Tautan Cepat</h3>
-                    <ul class="space-y-2 text-sm">
-                        <li>
-                            <a href="{{ route('home') }}" class="hover:text-gold-300 transition-colors">Beranda</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('kegiatan.index') }}" class="hover:text-gold-300 transition-colors">Kegiatan</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('artikel.index') }}" class="hover:text-gold-300 transition-colors">Artikel</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('kajian.index') }}" class="hover:text-gold-300 transition-colors">Kajian</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('konten.index') }}" class="hover:text-gold-300 transition-colors">Konten</a>
-                        </li>
-                    </ul>
-                </div>
+                
                 
                 <!-- Resources -->
 
