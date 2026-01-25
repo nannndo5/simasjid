@@ -42,21 +42,21 @@ $currentParams = request()->query();
                                         <div>
                                             <p class="text-navy-600 font-medium mb-1">Bank {{ $informasiRekening->nama_bank_1 }}</p>
                                             <p class="text-navy-900 font-semibold">{{ $informasiRekening->no_rekening_1 }}</p>
-                                            <p class="text-navy-600">a.n. Islamic Center</p>
+                                            
                                         </div>
                                     @endif
                                     @if($informasiRekening->nama_bank_2)
                                         <div>
                                             <p class="text-navy-600 font-medium mb-1">Bank {{ $informasiRekening->nama_bank_2 }}</p>
                                             <p class="text-navy-900 font-semibold">{{ $informasiRekening->no_rekening_2 }}</p>
-                                            <p class="text-navy-600">a.n. Islamic Center</p>
+                                            
                                         </div>
                                     @endif
                                     @if($informasiRekening->nama_bank_3)
                                         <div>
                                             <p class="text-navy-600 font-medium mb-1">Bank {{ $informasiRekening->nama_bank_3 }}</p>
                                             <p class="text-navy-900 font-semibold">{{ $informasiRekening->no_rekening_3 }}</p>
-                                            <p class="text-navy-600">a.n. Islamic Center</p>
+                                            
                                         </div>
                                     @endif
                                     @if($informasiRekening->no_whatsapp)
